@@ -12,6 +12,6 @@ bot = TeleBot(TOKEN)
 @bot.message_handler(func=lambda m: True)
 def forward_to_admin(message):
     bot.forward_message(ADMIN_ID, message.chat.id, message.message_id)
-    bot.send_message(message.chat.id,"پیامت واسه بهروز ارسال شد")
+    bot.send_message(message.chat.id,"پیامت اومد")
 
 bot.polling(none_stop=True)
