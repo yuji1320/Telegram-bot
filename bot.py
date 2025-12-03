@@ -1,11 +1,5 @@
 from telebot import TeleBot, apihelper
-
-# پراکسی SOCKS5 فعال
-apihelper.proxy = {
-    'http':  'socks5://150.227.4.147:1080',
-    'https': 'socks5://150.227.4.147:1080'
-}
-
+
 # توکن ربات تلگرام
 TOKEN = "8592104314:AAGVoXhgaHqwxx4aXW-MhjTot8Psah3iHSQ"
 
