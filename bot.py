@@ -5,7 +5,7 @@ ADMIN_ID = 7914359763
 
 bot = TeleBot(TOKEN)
 
-bot.remove_webhook()  # حذف وبهوک در صورت فعال بودن قبلی
+bot.remove_webhook()  
 
 @bot.message_handler(func=lambda m: True)
 def forward_to_admin(message):
